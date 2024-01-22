@@ -51,9 +51,9 @@ lang: ar
 
 <a id="الخوارزميات-وحل-المشكلات"></a>
 ## الخوارزميات وحل المشكلات
-خوارزميات وتقنيات أساسية
+يفضل التدرب على مجموعة متنوعة من المسائل لمعرفة كيفية التفكير في بناء خوارزمية تقوم بحلها.
+مايلي مجموعة أساسية من الخوارزميات يمكن تعلمها لفهم كيفية بناء خوارزمية لحل مشكلة ما بشكل افضل:
 - خوارزميات الترتيب -Sorting-
-- خوارزمية البحث الثنائي -Binary Search-
 - البحث بين نقطتين -Two Pointers-
 - مجموع البادئة -Prefix sum-
 
@@ -102,4 +102,4 @@ lang: ar
 
 **صفحة ويب -انقليزية- تغطي جميع مواضيع الاستراتيجيات الحسابية في البرمجة التنافسية:** [Geeks for Geeks - Math in Competitive Programming](https://www.geeksforgeeks.org/math-in-competitive-programming/)
 
-**للتدرب على مسائل الاستراتيجيات الحسابية:** [Codeforces - Assuit Sheet Math&Geometry Problems](https://codeforces.com/group/MWSDmqGsZm/contest/223338)
+**للتدرب على مسائل في الاستراتيجيات الحسابية:** [Codeforces - Assuit Sheet Math&Geometry Problems](https://codeforces.com/group/MWSDmqGsZm/contest/223338)
