@@ -422,7 +422,7 @@ th {
 body {
   padding:0;
   margin:0;
-  font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:  'Rubik', serif;
   font-size:16px;
   line-height:1.5;
   color:#606c71
@@ -611,7 +611,7 @@ a:hover {
 }
 .main-content code {
   padding:2px 4px;
-  font-family:Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family:  'Rubik', serif;
   font-size:0.9rem;
   color:#567482;
   background-color:#f3f6fa;
