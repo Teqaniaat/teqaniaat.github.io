@@ -9,7 +9,9 @@
 Things probably should be added:
 - `tags`
 - `authors`
-  
+
+Use double quotation `""` in case of string
+
 ## Imporing HTML elements
 You can include HTML files in `_includes` folder
 ```
@@ -18,3 +20,10 @@ You can include HTML files in `_includes` folder
 
 ## Markdown
 You can use [Github Flavored Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+## If statements
+```
+{% if ... %}
+
+{% endif %}
+```

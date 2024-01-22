@@ -1,5 +1,6 @@
 ---
-title: 'ATHKA Roadmap'
+title: "ATHKA Roadmap"
+description: "ATHKA Olympiad roadmap"
 layout: athka
 lang: en
 ---

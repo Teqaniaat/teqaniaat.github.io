@@ -1,7 +1,8 @@
 ---
-title: 'ATHKA Roadmap'
-layout: athkaAR
+title: "دليل أذكى"
+description: "دليل ومصادر تعلم أولمبياد أذكى"
 lang: ar
+layout: athka
 ---
 # خطة الاستعداد والتدريب لأولمبياد أذكى
 
