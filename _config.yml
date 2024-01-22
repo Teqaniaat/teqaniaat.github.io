@@ -3,3 +3,5 @@ description: "مبادرة سعودية طلابية تهدف الى توعية 
 
 theme: jekyll-theme-cayman
 markdown: GFM
+exclude:
+  - GUIDE.md
