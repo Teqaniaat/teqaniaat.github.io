@@ -10,6 +10,7 @@ lang: ar
     <li>معاذ القرني <a href="https://twitter.com/Muaath_dev" target="_blank">(@Muaath_dev)</a></li>
     <li>يزن آشي <a href="https://twitter.com/ayazashy" target="_blank">(@ayazashy)</a></li>
 </ul>
+[للإطلاع على مواضيع المستوى المتقدم](https://teqaniaat.github.io/Teqaniaat/athka/first_exam_topics_senior_ar)
 
 {% include athka-tgchannel.html %}
 
