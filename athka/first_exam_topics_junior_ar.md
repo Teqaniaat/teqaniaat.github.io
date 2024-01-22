@@ -1,9 +1,8 @@
 ---
 title: "دليل المرحلة الأولى من أولمبياد أذكى (المستوى الأولي)"
 description: "المواد العلمية المطلوبة ومصادر التعلم والتدريب"
-layout: redirect
+layout: athka
 lang: ar
-redirect: "/athka/first_exam_topics_junior_ar"
 ---
 
 <h2>كتب هذا الملف:</h2>
