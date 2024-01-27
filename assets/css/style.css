@@ -4,6 +4,7 @@
 
 pre, code {
     direction: ltr !important;
+    font-family: 'Courier New', Courier, monospace !important;
 }
 
 details {

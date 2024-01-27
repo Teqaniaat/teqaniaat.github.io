@@ -46,6 +46,14 @@ usemathjax: true
 Sum of every element squared
 $$\sum{ (a_i^2) }$$
 
+```py
+a = list(map(int, input().strip().split()))
+sum = 0
+for i in a:
+    sum += i*i
+print(sum)
+```
+
 ## B
 ```py
 arr = [2]*99
@@ -116,8 +124,12 @@ print((x*y)%MOD)
 ```
 
 ## E
-Approuches:
+هذه مسألة اختصار، أي كلما وجدت حل أفضل كانت درجتك أعلى.
+
+**بعض الأفكار المستعملة في:**
 - Sort by frequency ~36k
-- Keyboard order same as text ~35
+- Keyboard order same as text ~35k
 - Sort by frequency as a pyramid ~30k
 - Randomization ~32.5k
+
+**أفضل حل مكتشف:** `26890`, `jgfwmuB26TF4ARW0LVsXYEthUZr5aecoJ7ilMHnDSdPON389QIGCKp1ybkvxzq`
