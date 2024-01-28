@@ -1,10 +1,15 @@
 ---
-title: 'حلول اختبار المرحلة الأولى (المرحلة الثانوية)'
+title: 'حلول اختبار المرحلة الأولى (المرحلة المتوسطة)'
 description: 'أذكى 2024 باللغتين: C++ وبايثون'
 lang: ar
 layout: athka
 usemathjax: true
 ---
+
+{% include /athka/authors.md %}
+
+{% include athka-tgchannel.html %}
+
 ## جدول المسائل
 <table>
   <thead>
@@ -42,15 +47,47 @@ usemathjax: true
 </table>
 
 
-## حديقة
-مجموع كل عدد بعد تربيعه، رياضيًا:
-$$\sum{ (a_i^2) }$$
+{% include /athka/garden.md %}
 
-الحل باستعمال بايثون:
-```py
-a = list(map(int, input().strip().split()))
-sum = 0
-for i in a:
-    sum += i*i
-print(sum)
+## حركة الروبوت
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n = 500, x, v=0, h=0;
+    while (n--) {
+        cin >> x;
+        if (x == 1) h++;
+        if (x == 2) v++;
+        if (x == 3) h--;
+        if (x == 4) v--;
+    }
+    cout << "Up: " << v << endl;
+    cout << "Right: " << h << endl; 
+}
 ```
+
+
+## ترتيب سري
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int n = 10, q[100], p[100];
+int main()
+{
+    for (int i = 0; i < n; i++) {
+        cin >> q[i];
+        p[q[i]] = i;
+    }
+    for (int i = 0; i < n; i++) {
+        cout << p[i] << ' ';
+    }
+}
+```
+
+{% include /athka/biggest-product.md %}
+
+{% include /athka/keyboad.md %}
