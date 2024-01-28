@@ -135,4 +135,5 @@ def randomSwapping():
 test(randomSwapping())
 ```
 
-**أفضل حل مكتشف:** `26890`, `jgfwmuB26TF4ARW0LVsXYEthUZr5aecoJ7ilMHnDSdPON389QIGCKp1ybkvxzq`
+**أفضل حل:** `jgfwmuB26TF4RAW0LVsXYEUthZr5aecoJlMiHn7DSdPO38NQ9IGCKp1ybkvxzq`
+**التكلفة:** $26886$

@@ -6,11 +6,8 @@ layout: athka
 usemathjax: true
 ---
 <div dir="auto">
-  
-# حلول الاختبار التأهيلي أذكى 2024
 
-
-{% include authors.md %}
+{% include /athka/authors.md %}
 
 {% include athka-tgchannel.html %}
 
