@@ -90,4 +90,4 @@ int main()
 
 {% include /athka/biggest-product.md %}
 
-{% include /athka/keyboad.md %}
+{% include /athka/keyboard.md %}
