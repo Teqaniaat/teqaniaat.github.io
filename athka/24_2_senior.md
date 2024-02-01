@@ -50,27 +50,85 @@ usemathjax: true
 {% include /athka/garden.md %}
 
 ## كسر الهبوط
-الحل باستعمال بايثون:
+<details>
+  <summary>الحل باستعمال بايثون</summary>
+
 ```py
+print("Subtask 1:")
+print("1 2 2 2 2 2 2 2 2 2 1")
+
 arr = [2]*99
 arr.append(1)
+print("Subtask 2:")
 for i in arr:
     print(i, end=' ')
 ```
 
-## تلوين الحاويات
-الحل باستعمال C++
+</details>
+
+<details>
+  <summary>الحل باستعمال С++</summary>
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
-int n, m, g[35][35];
 int main()
 {
-    cin >> n >> m;
+    cout << "Subtask 1:" << endl;
+    cout << "1 2 2 2 2 2 2 2 2 2 1" << endl;
+
+    cout << "Subtask 2:" << endl;
+    for (int i = 0; i < 99; i++)
+        cout << "2 ";
+    cout << "1";
+}
+```
+
+</details>
+
+
+## تلوين الحاويات
+
+<detials>
+  <summary>الحل باستعمال بايثون</summary>
+
+```py
+n = int(input())
+g = []
+for _ in range(n):
+    row = list(map(int, input().split()))
+    g.append(row)
+
+sol = 0
+for i in range(n):
+    for j in range(n):
+        if g[i][j]:
+            sol += 1  # top
+        sol += max(g[i][j] - g[i+1][j], 0)
+        sol += max(g[i][j] - g[i-1][j], 0)
+        sol += max(g[i][j] - g[i][j+1], 0)
+        sol += max(g[i][j] - g[i][j-1], 0)
+
+print(sol)
+```
+
+</details>
+
+<detials>
+  <summary>الحل باستعمال C++</summary>
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int n, g[35][35];
+int main()
+{
+    cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= m; j++)
+        for (int j = 1; j <= n; j++)
         {
             cin >> g[i][j];
         }
@@ -78,7 +136,7 @@ int main()
     int sol = 0;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= m; j++)
+        for (int j = 1; j <= n; j++)
         {
             if (g[i][j]) sol++; // top
             sol += max(g[i][j] - g[i+1][j], 0);
@@ -90,6 +148,8 @@ int main()
     cout << sol;
 }
 ```
+
+</details>
 
 {% include /athka/biggest-product.md %}
 

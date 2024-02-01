@@ -50,15 +50,43 @@ usemathjax: true
 {% include /athka/garden.md %}
 
 ## حركة الروبوت
+
+<details>
+  <summary>الحل باستعمال بايثون</summary>
+
+```py
+q = list(map(int, input().split()))
+h = 0
+v = 0
+for x in q:
+    if x == 1:
+        h+=1
+    if x == 2:
+        v+=1
+    if x == 3:
+        h-=1
+    if x == 4:
+        v-=1
+print("Up:" << v)
+print("Right:" << h)
+```
+
+</details>
+
+<details>
+  <summary>الحل باستعمال С++</summary>
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    int n = 500, x, v=0, h=0;
-    while (n--) {
-        cin >> x;
+    int x, v=0, h=0;
+    string input;
+    getline(cin, input);
+    stringstream ss(input);
+    while (ss >> x) {
         if (x == 1) h++;
         if (x == 2) v++;
         if (x == 3) h--;
@@ -69,16 +97,27 @@ int main()
 }
 ```
 
+</details>
+
+
 
 ## ترتيب سري
+
+<details>
+  <summary>الحل باستعمال C++</summary>
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
-int n = 10, q[100], p[100];
+int n = 0, q[100], p[100];
 int main()
 {
-    for (int i = 0; i < n; i++) {
+    string input;
+    getline(cin, input);
+    stringstream ss(input);
+    while (ss >> q[i]) {
+        n++;
         cin >> q[i];
         p[q[i]] = i;
     }
@@ -87,6 +126,24 @@ int main()
     }
 }
 ```
+
+</details>
+
+<details>
+  <summary>الحل باستعمال بايثون</summary>
+
+```py
+q = list(map(int, input().split()))
+p = [0] * len(q)
+
+for i in range(n):
+    p[q[i]] = i
+
+for i in range(n):
+    print(p[i], end=' ')
+```
+
+</details>
 
 {% include /athka/biggest-product.md %}
 
