@@ -9,7 +9,7 @@
 - التبديل العشوائي إذا كان يعطي نتيجة أفضل (تكلفة 27000~)
 
 <details>
-  <summary>
+  <summary>الحل باستعمال C++</summary>
 
 ```cpp
 #include <bits/stdc++.h>
