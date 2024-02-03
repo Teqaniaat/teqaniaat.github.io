@@ -74,7 +74,7 @@ print("Right:" << h)
 </details>
 
 <details>
-  <summary>الحل باستعمال С++</summary>
+  <summary>الحل باستعمال <span dir="ltr">C++</span></summary>
 
 ```cpp
 #include <bits/stdc++.h>
@@ -103,8 +103,25 @@ int main()
 
 ## ترتيب سري
 **الفكرة:** فيما نلاحظ أن التغيير سيحدث بالطريقة التالية: كل رقم سيؤثر على الخانة التي تحمل نفس الرقم، رقم 3 سيغير المكان الثالث. وقيمة التغيير تكون بالمكان الحالي 
+
 <details>
-  <summary>الحل باستعمال C++</summary>
+  <summary>الحل باستعمال بايثون</summary>
+
+```py
+q = list(map(int, input().split()))
+p = [0] * len(q)
+
+for i in range(n):
+    p[q[i]] = i
+
+for i in range(n):
+    print(p[i], end=' ')
+```
+
+</details>
+
+<details>
+  <summary>الحل باستعمال <span dir="ltr">C++</span></summary>
 
 ```cpp
 #include <bits/stdc++.h>
@@ -125,22 +142,6 @@ int main()
         cout << p[i] << ' ';
     }
 }
-```
-
-</details>
-
-<details>
-  <summary>الحل باستعمال بايثون</summary>
-
-```py
-q = list(map(int, input().split()))
-p = [0] * len(q)
-
-for i in range(n):
-    p[q[i]] = i
-
-for i in range(n):
-    print(p[i], end=' ')
 ```
 
 </details>
