@@ -70,7 +70,7 @@ for i in arr:
 </details>
 
 <details>
-  <summary>الحل باستعمال C++</summary>
+  <summary>الحل باستعمال <span dir="ltr">C++</span></summary>
 
 ```cpp
 #include <bits/stdc++.h>
